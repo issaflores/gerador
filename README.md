@@ -7,7 +7,8 @@ Gerador de Senhas Aleatórias: Gere senhas fortes e aleatórias com facilidade.
 Controle de Comprimento: Escolha o comprimento desejado para suas senhas, variando de 6 a 20 caracteres.
 Salvamento de Senhas: Associe nomes descritivos às senhas geradas e salve-as para referência futura.
 # Tecnologias Utilizadas
-React Native: Desenvolvimento do aplicativo móvel multiplataforma.
+# React Native: 
+Desenvolvimento do aplicativo móvel multiplataforma.
 Async Storage: Armazenamento local para salvar senhas.
 Expo Clipboard: Copiar senhas para a área de transferência.
 React Navigation: Navegação entre telas do aplicativo.
@@ -22,5 +23,3 @@ Copy code
 npm start
 Utilize um emulador ou o aplicativo Expo Go no seu dispositivo móvel para visualizar o aplicativo.
 
-#Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
