@@ -8,13 +8,9 @@ O "Gerador de Senhas" é um aplicativo simples desenvolvido em React Native que 
 - **Salvamento de Senhas:** Associe nomes descritivos às senhas geradas e salve-as para referência futura.
 
  ## Capturas de Tela
- | Tela Inicial | Gerador de Senhas | | Minhas senhas |
-|--------------|---------------------|-----------------|
-| ![Tela Inicial](![Gerar de senha](![tela inicial](https://github.com/issaflores/gerador/assets/97623561/f2e5c7ab-e4e3-489e-b277-309db999dd4e)
-)
-) | ![Gerador de Senhas](![gerador de senha ](https://github.com/issaflores/gerador/assets/97623561/bcd580f2-226f-43a0-837a-a590c9e14d43)![Minhas senhas salvas](![senhas salvas ](https://github.com/issaflores/gerador/assets/97623561/3a50ed2a-dd35-4858-b0b5-b2eeb8029602)
-)
-) |
+ | Tela Inicial | Gerador de Senhas | Minhas senhas |
+|--------------|---------------------|---------------|
+| ![Tela Inicial](https://github.com/issaflores/gerador/assets/97623561/f2e5c7ab-e4e3-489e-b277-309db999dd4e) | ![Gerador de Senhas](https://github.com/issaflores/gerador/assets/97623561/bcd580f2-226f-43a0-837a-a590c9e14d43) | ![Minhas senhas salvas](https://github.com/issaflores/gerador/assets/97623561/3a50ed2a-dd35-4858-b0b5-b2eeb8029602) |
 
 
 ### Tecnologias Utilizadas
