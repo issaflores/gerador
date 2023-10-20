@@ -5,5 +5,5 @@ O "Gerador de Senhas" é um aplicativo simples desenvolvido em React Native que 
 
 
 
+![inicio](https://github.com/issaflores/gerador/assets/97623561/89047ff5-7bee-4814-acf9-5568c216aa89)
 
-![Gerar senha](https://github.com/issaflores/gerador/assets/97623561/f7c7efeb-7aa4-4cb7-9b88-2da0c773cb12)
