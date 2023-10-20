@@ -9,13 +9,11 @@ import {
   TextInput,
   Alert,
 } from 'react-native';
-
-
 import Slider from '@react-native-community/slider';
-import { ModalPassword } from '../../components/modal';
 import { saveItem } from '../../hooks/useStorage';
 
-let charset = 'abcdefghijklmnopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789';
+// Defina a variável charset globalmente
+const charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
 export function Home() {
   const [size, setSize] = useState(10);
@@ -48,10 +46,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
-      <Image
-        source={require('../../assets/logo.png')}
-        style={styles.logo}
-      />
+      <Image source={require('../../assets/logo.png')} style={styles.logo} />
 
       <Text style={styles.title}>{size} Caracteres</Text>
 
@@ -88,10 +83,8 @@ export function Home() {
             <TouchableOpacity style={styles.saveButton} onPress={handleSavePassword}>
               <Text style={styles.buttonTextSave}>Salvar</Text>
             </TouchableOpacity>
-            <TouchableOpacity
-                style={styles.closeButton}
-                onPress={() => setModalVisible(false)}>
-                <Text style={styles.buttonBackText}>Voltar</Text>
+            <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
+              <Text style={styles.buttonBackText}>Voltar</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -135,9 +128,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 8,
     height: 60,
-
-     // Ajuste a largura conforme necessário
-  },  
+  },
   closeButton: {
     backgroundColor: '#fff',
     flex: 1,
@@ -149,7 +140,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flexDirection: 'row',
     marginTop: 16,
-    justifyContent: 'space-between', // Ajusta o espaçamento entre os botões
+    justifyContent: 'space-between',
   },
   title: {
     fontSize: 40,
@@ -195,9 +186,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   modalTitle: {
-    fontSize: 24,  // Ajuste o tamanho conforme necessário
+    fontSize: 24,
     fontWeight: 'bold',
-    color: '#000', // Altere a cor conforme necessário
-    marginBottom: 10, // Ajuste o espaçamento inferior conforme necessário
+    color: '#000',
+    marginBottom: 10,
   },
 });
