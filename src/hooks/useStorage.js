@@ -39,3 +39,18 @@ export const removeItem = async (key, item) => {
     console.log("ERROR AO DELETAR", error);
   }
 };
+export const removeItem = async (key, item) => {
+  try {
+    let passwords = await getItem(key);
+
+    let myPasswords = passwords.filter((password) => {
+      return password !== item;
+    });
+
+    await AsyncStorage.setItem(key, JSON.stringify(myPasswords));
+
+    return myPasswords;
+  } catch (error) {
+    console.log("ERROR AO DELETAR", error);
+  }
+};
