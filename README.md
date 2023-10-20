@@ -13,7 +13,7 @@ Async Storage: Armazenamento local para salvar senhas.
 Expo Clipboard: Copiar senhas para a área de transferência.
 React Navigation: Navegação entre telas do aplicativo.
 ## Como Executar o Projeto
-# Instale as Dependências:
+### Instale as Dependências:
 bash
 Copy code
 npm install
